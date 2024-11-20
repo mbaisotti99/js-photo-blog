@@ -50,8 +50,8 @@ img{
     min-height: 200px;
     width: 50%;
     position: fixed;
-    top: 50vh;
-    left: 25vh;
+    top: 25%;
+    left: 25%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -64,6 +64,14 @@ img{
     height: 20px;
     padding: 7px;
     font-size: 18px;
+}
+
+.x p{
+    cursor: pointer;
+}
+
+.post-img{
+    cursor: pointer;
 }
 
 
