@@ -68,10 +68,17 @@ img{
 
 .x p{
     cursor: pointer;
+    
 }
 
 .post-img{
     cursor: pointer;
+}
+
+.post-img:hover{
+    transform: scale(1.2) rotate(10deg);
+    transition: transform 1s ease 0s;
+    z-index: 999;
 }
 
 
