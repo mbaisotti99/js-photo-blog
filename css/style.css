@@ -75,10 +75,10 @@ img{
     cursor: pointer;
 }
 
-.post-img:hover{
+.post-card:hover{
     transform: scale(1.2) rotate(10deg);
     transition: transform 1s ease 0s;
-    z-index: 999;
+    z-index: 10;
 }
 
 

@@ -39,6 +39,8 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6").then(resp => {
         curImg.addEventListener("click", () => {
             overlayElem.classList.remove("d-none")
             overlayElem.classList.add("d-block")
+            let postCardElem = document.querySelector(".post-card")
+            postCardElem.style.zIndex = "1";
 
             // console.log(curImg.dataset.imgId);
             // curImgId = curImg.dataset.imgId;
